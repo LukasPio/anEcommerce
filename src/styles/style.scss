@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +9,11 @@
 
 #root {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
   background-color: #ecebeb;
+  font-family: Roboto;
 }
 
 .nav-bar {
@@ -24,13 +29,33 @@
   display: flex;
   justify-content: space-around;
   width: 50%;
-}
 
-p {
-  font-size: 20px;
+  p {
+    font-size: 21px;
+    color: #828282;
+    font-weight: 500;
+    transition: 0.6s;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      transform: scale(1.06);
+    }
+  }
 }
 
 .app-logo {
   width: 100px;
   height: 100px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #828282;
+  padding: 5px;
+  font-weight: 300;
 }
