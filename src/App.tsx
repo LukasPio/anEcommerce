@@ -1,13 +1,8 @@
-import NavBar from "./components/NavBar.jsx"
-import Footer from "./components/Footer.jsx"
-import Container from "./components/Container.jsx"
+// @ts-ignore
+import HomePage from "./pages/HomePage.jsx"
 
 export default function App() {
     return (
-        <>
-            <NavBar />
-            <Container />
-            <Footer />
-        </>
+        <HomePage />
     )
 }

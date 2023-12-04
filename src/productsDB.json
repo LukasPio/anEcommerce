@@ -1,0 +1,52 @@
+[
+  {
+    "name": "iPhone 13",
+    "price": 4699,
+    "image": "/iphoneImage.jpg"
+  },
+  {
+    "name": "Samsung Galaxy S21 Ultra",
+    "price": 4299,
+    "image": "/samsungS21UltraImage.jpg"
+  },
+  {
+    "name": "MacBook Air M1",
+    "price": 7999,
+    "image": "/macbookAirImage.jpg"
+  },
+  {
+    "name": "PlayStation 5",
+    "price": 3499,
+    "image": "/ps5Image.jpg"
+  },
+  {
+    "name": "Canon EOS R5",
+    "price": 25499,
+    "image": "/canonEOSR5Image.jpg"
+  },
+  {
+    "name": "Apple Watch Series 7",
+    "price": 3199,
+    "image": "/appleWatchImage.jpg"
+  },
+  {
+    "name": "LG OLED 4K TV",
+    "price": 8999,
+    "image": "/lgOledTvImage.jpg"
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 38",
+    "price": 749,
+    "image": "/nikeAirZoomImage.jpg"
+  },
+  {
+    "name": "Dyson V11 Vacuum Cleaner",
+    "price": 3899,
+    "image": "/dysonV11Image.jpg"
+  },
+  {
+    "name": "KitchenAid Stand Mixer",
+    "price": 3499,
+    "image": "/kitchenAidImage.jpg"
+  }
+]

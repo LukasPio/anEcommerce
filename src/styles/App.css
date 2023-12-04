@@ -11,8 +11,11 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  font-family: Roboto, sans-serif;
+}
+
+.main-container {
   background-color: #ecebeb;
-  font-family: Roboto;
 }
 
 .nav-bar {
@@ -54,6 +57,7 @@ footer {
   display: flex;
   justify-content: center;
   color: #828282;
+  background-color: #ededed;
   padding: 5px;
   font-weight: 300;
 }
